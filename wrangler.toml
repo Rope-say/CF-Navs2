@@ -1,4 +1,4 @@
-name = "cf-navs"
+name = "cf-navs2"
 main = "worker/index.ts"
 compatibility_date = "2025-06-01"
 compatibility_flags = ["nodejs_compat"]
@@ -28,7 +28,7 @@ SESSION_TTL = "604800"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "cf-navs-db"
+database_name = "cf-navs-work-db"
 # Cloudflare Git deployments automatically provision the D1 database when the
 # database_id is omitted. Local CLI deployments use wrangler.local.toml.
 
